@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akrep"
+    android:background="#00FFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OGLAK BURCU"
+                android:textColor="#1C0303"
+                android:textSize="24sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/oglak"></ImageView>
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            app:cardBackgroundColor="#00FFFF"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="BURCUN GENEL ÖZELLİKLERİ:"
+                android:textColor="#1C0303"
+                android:gravity="center"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="15sp"
+                android:paddingLeft="8dp"
+                android:text="Geleceği ayrıntılı biçimde planlamaya çalışan Oğlak'lar bu özellikleri nedeniyle sık sık kuruntulara kapılarak, depresyona girerler. İşleri ile aşırı meşgul olduklarından, insanlarla zor ilişki kurarlar."
+                >
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            app:cardBackgroundColor="#00FFFF"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="AYNI BURCA SAHİP ÜNLÜLER:"
+                android:textColor="#1C0303"
+                android:gravity="center"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/cagla"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="CAĞLA ŞİKEL"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="240dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/burak"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="BURAK ÖZÇEVİT"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="130dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/kate">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="KATE MOSS"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="240dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/jim">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:text="JİM CARREY"></TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="OGLAK BURCU GÜNLÜK YORUM:"
+            android:textColor="#1C0303"
+            android:gravity="center"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+            android:paddingLeft="8dp"
+            android:text="Yakın arkadaşlarınız ve aile üyelerinizle olan ilişkileriniz kuvvetleniyor. Onlara zaman ayırmak keyifli anlar paylaşmak kadar birbirinizden öğrenecekleriniz için de önemli olacaktır."
+            ></TextView>
+
+    </LinearLayout>
+</ScrollView>

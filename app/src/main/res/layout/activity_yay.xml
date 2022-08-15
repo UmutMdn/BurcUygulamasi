@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akrep"
+    android:background="#00FFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YAY BURCU"
+                android:textColor="#1C0303"
+                android:textSize="24sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/yay"></ImageView>
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            app:cardBackgroundColor="#00FFFF
+"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="BURCUN GENEL ÖZELLİKLERİ:"
+                android:textColor="#1C0303"
+                android:gravity="center"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="16sp"
+                android:paddingLeft="8dp"
+                android:text="Kavrama yetenekleri gelişmiş olduğundan becerikliliklerinin de katkısı ile ele aldıkları her işte, özellikle ciddi işlerde ve felsefe konularında başarılı olurlar. "
+                >
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            app:cardBackgroundColor="#00FFFF
+"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#1C0303"
+                android:text="AYNI BURCA SAHİP ÜNLÜLER:"
+                android:gravity="center"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/azra"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="AZRA AKIN"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="240dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/brad"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="BRAD PİTT"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="130dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/sertap">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="SERTAP ERENER"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="240dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:src="@drawable/haluk">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:text="HALUK LEVENT"></TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#1C0303"
+            android:text="YAY BURCU GÜNLÜK YORUM:"
+            android:gravity="center"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            android:text="Ailenizle yapacağınız görüşmeler sıkışmış hissettiğiniz bir konuda size çözüm sunabilir. Özellikle ekonomik açıdan şanslı bir gündesiniz. Kuracağınız düzenin detaylarına yönelebilirsiniz."
+            ></TextView>
+
+    </LinearLayout>
+</ScrollView>
